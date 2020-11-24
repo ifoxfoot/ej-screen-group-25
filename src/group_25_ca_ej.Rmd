@@ -18,8 +18,8 @@ ces <- read_csv(here("data", "ces3demographics.csv")) %>%
 ```
 
 ```{r}
-ggplot(data = ces, aes(x=white_percent, y = ces_3_0_score)) + geom_hex() + labs(x = "Percent White", y = "CalEnviroScreen (CES) Score")+
-  scale_fill_gradient(low = "darkorchid4", high = "magenta")+
+ggplot(data = ces, aes(x=white_percent, y = ces_3_0_score)) + geom_hex() + labs(x = "Percent White", y = "CalEnviroScreen (CES) Score", title = "CES Score and racial makeup of CA Cenus Tracts")+
+  scale_fill_gradient(low = "navy", high = "orange")+
   theme_minimal()
 ```
 
