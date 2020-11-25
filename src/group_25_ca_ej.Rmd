@@ -23,3 +23,4 @@ ggplot(data = ces, aes(x=white_percent, y = ces_3_0_score)) + geom_hex() + labs(
   theme_minimal()
 ```
 
+The graph above shows a trend of populations with a higher percent of white people tending to have a lower CalEnviroScreen(CES) Score. The orange tiles, show a high frequency of the corresponding percentage of white people. The highest frequencies occur around 0 percent white, where there is a higher CES score, and arounf 75 percet white where there is a lower CES score. 
